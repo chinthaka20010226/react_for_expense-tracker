@@ -58,15 +58,15 @@ h4 {
 
 .money {
   font-size: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   margin: 5px 0;
 }
 
-.money.plus {
+.money-plus {
   color: #2ecc71;
 }
 
-.money.minus {
+.money-minus {
   color: #c0392b;
 }
 
