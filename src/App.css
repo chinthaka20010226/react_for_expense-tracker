@@ -18,6 +18,10 @@ body {
   width: 350px;
 }
 
+#header {
+  text-align: center;
+}
+
 h1 {
   letter-spacing: 1px;
   margin: 0;
@@ -93,7 +97,7 @@ input[type='number'] {
   border: 0;
   display: block;
   font-size: 16px;
-  margin: 0px 0 30px;
+  margin: 5px 0 30px;
   padding: 10px;
   width: 100%;
 }
@@ -146,6 +150,10 @@ input[type='number'] {
   -o-transform: translate(-100%, -50%);
   opacity: 0;
   transition: opacity 0.3s ease;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -ms-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
 }
 
 .list li:hover .delete-btn {
